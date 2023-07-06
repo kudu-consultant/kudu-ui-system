@@ -1,8 +1,17 @@
 @layer components {
   [data-theme="kududesign"] .input {
-    @apply rounded-[0.5rem] text-base-content bg-base-300;
+    @apply rounded-[0.5rem] text-neutral-content bg-neutral;
+  }
+  [data-theme="kududesign"] .input.input-bordered {
+    @apply rounded-[0.5rem] border-base-200;
   }
   [data-theme="kududesign"] .input:focus {
-    @apply rounded-[0.5rem] outline-base-200;
+    @apply outline-neutral-focus;
+  }
+  [data-theme="kududesign"] .input.input-neutral {
+    @apply rounded-[0.5rem] text-neutral-content bg-neutral;
+  }
+  [data-theme="kududesign"] .input.input-ghost {
+    @apply bg-transparent;
   }
 }
