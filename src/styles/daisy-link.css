@@ -2,4 +2,7 @@
   [data-theme="kududesign"] .link {
     @apply underline-offset-4 hover:text-neutral-focus text-neutral active:opacity-90 font-normal;
   }
+  [data-theme="kududesign"] .link.link-primary {
+    @apply underline-offset-4 hover:text-primary-focus text-primary active:opacity-90 font-normal;
+  }
 }
