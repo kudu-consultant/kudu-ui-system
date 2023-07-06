@@ -1,0 +1,8 @@
+@layer components {
+  [data-theme="kududesign"] .input {
+    @apply rounded-[0.5rem] text-base-content bg-base-300;
+  }
+  [data-theme="kududesign"] .input:focus {
+    @apply rounded-[0.5rem] outline-base-200;
+  }
+}
