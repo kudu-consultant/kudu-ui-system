@@ -1,39 +1,42 @@
 @layer components {
-	[data-theme='kududesign']
-		.select:not(
-			.btn-link,
-			.btn-primary,
-			.btn-secondary,
-			.btn-accent,
-			.btn-info,
-			.btn-success,
-			.btn-warning,
-			.btn-error,
-			.btn-ghost
-		) {
-		@apply rounded-[0.5rem] bg-neutral text-neutral-content font-normal outline-neutral-content;
-	}
-	[data-theme='kududesign'] .select.select-bordered {
-		@apply border-neutral-content;
-	}
-	[data-theme='kududesign']
-		.select.select-reverse:not(
-			.btn-link,
-			.btn-primary,
-			.btn-secondary,
-			.btn-accent,
-			.btn-info,
-			.btn-success,
-			.btn-warning,
-			.btn-error,
-			.btn-ghost
-		) {
-		@apply rounded-[0.5rem] bg-neutral-content text-neutral font-normal outline-neutral;
-	}
-	[data-theme='kududesign'] .select.select-reverse.select-bordered {
-		@apply border-neutral;
-	}
-	[data-theme='kududesign'] .select.select-sm {
-		@apply h-9;
-	}
+  [data-theme="kududesign"] .select {
+    @apply transition-colors duration-200;
+  }
+  [data-theme="kududesign"]
+    .select:not(
+      .btn-link,
+      .btn-primary,
+      .btn-secondary,
+      .btn-accent,
+      .btn-info,
+      .btn-success,
+      .btn-warning,
+      .btn-error,
+      .btn-ghost
+    ) {
+    @apply rounded-[0.5rem] bg-neutral text-neutral-content font-normal outline-neutral-content;
+  }
+  [data-theme="kududesign"] .select.select-bordered {
+    @apply border-neutral-content;
+  }
+  [data-theme="kududesign"]
+    .select.select-reverse:not(
+      .btn-link,
+      .btn-primary,
+      .btn-secondary,
+      .btn-accent,
+      .btn-info,
+      .btn-success,
+      .btn-warning,
+      .btn-error,
+      .btn-ghost
+    ) {
+    @apply rounded-[0.5rem] bg-neutral-content text-neutral font-normal outline-neutral hover:bg-neutral hover:text-neutral-content active:opacity-90;
+  }
+  [data-theme="kududesign"] .select.select-reverse.select-bordered {
+    @apply border-neutral;
+  }
+  [data-theme="kududesign"] .select.select-sm {
+    @apply h-9;
+  }
 }
