@@ -37,7 +37,7 @@
     @apply active:opacity-90;
   }
   [data-theme="kududesign"] .btn.btn-link {
-    @apply underline-offset-4 hover:text-neutral-focus text-neutral;
+    @apply underline-offset-4 hover:text-neutral-focus text-neutral active:opacity-90 font-normal;
   }
   [data-theme="kududesign"] .btn.btn-sm {
     @apply h-9;
