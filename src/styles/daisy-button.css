@@ -1,60 +1,62 @@
 @layer components {
-	[data-theme='kududesign']
-		.btn:not(
-			.btn-link,
-			.btn-primary,
-			.btn-secondary,
-			.btn-accent,
-			.btn-info,
-			.btn-success,
-			.btn-warning,
-			.btn-error,
-			.btn-ghost
-		),
-	[data-theme='kududesign'] .btn.btn-neutral {
-		@apply bg-neutral text-neutral-content border-transparent outline-neutral hover:bg-neutral-focus active:opacity-90;
-	}
-	[data-theme='kududesign']
-		.btn.btn-outline:not(
-			.btn-link,
-			.btn-primary,
-			.btn-secondary,
-			.btn-accent,
-			.btn-info,
-			.btn-success,
-			.btn-warning,
-			.btn-error,
-			.btn-ghost
-		),
-	[data-theme='kududesign'] .btn.btn-neutral.btn-outline {
-		@apply bg-transparent text-neutral border-neutral outline-neutral hover:bg-neutral-focus
+  [data-theme="kududesign"]
+    .btn:not(
+      .btn-link,
+      .btn-primary,
+      .btn-secondary,
+      .btn-accent,
+      .btn-info,
+      .btn-success,
+      .btn-warning,
+      .btn-error,
+      .btn-ghost
+    ),
+  [data-theme="kududesign"] .btn.btn-neutral {
+    @apply bg-neutral text-neutral-content border-transparent outline-neutral hover:bg-neutral-focus active:opacity-90;
+  }
+  [data-theme="kududesign"]
+    .btn.btn-outline:not(
+      .btn-link,
+      .btn-primary,
+      .btn-secondary,
+      .btn-accent,
+      .btn-info,
+      .btn-success,
+      .btn-warning,
+      .btn-error,
+      .btn-ghost
+    ),
+  [data-theme="kududesign"] .btn.btn-neutral.btn-outline {
+    @apply bg-transparent text-neutral border-neutral outline-neutral hover:bg-neutral-focus
 		hover:text-neutral-content hover:border-neutral-focus active:opacity-90;
-	}
-	[data-theme='kududesign'] .btn.btn-primary {
-		@apply active:opacity-90;
-	}
-	[data-theme='kududesign'] .btn.btn-primary {
-		@apply active:opacity-90;
-	}
-	[data-theme='kududesign'] .btn.btn-link {
-		@apply underline-offset-4 hover:text-neutral-focus text-neutral;
-	}
-	[data-theme='kududesign'] .btn.btn-sm {
-		@apply h-9;
-	}
-	[data-theme='kududesign'] .btn.btn-square,
-	[data-theme='kududesign'] .btn.btn-square.btn-md {
-		@apply rounded-[0.25rem] h-12 w-12;
-	}
-	[data-theme='kududesign'] .btn.btn-square.btn-sm {
-		@apply rounded-[0.25rem] h-9 w-9;
-	}
-	[data-theme='kududesign'] .btn.btn-square.btn-xs {
-		@apply rounded-[0.25rem] h-6 w-6;
-	}
-	[data-theme='kududesign'] .btn[disabled],
-	[data-theme='kududesign'] .btn-disabled {
-		@apply border-base-300 border-opacity-100 bg-base-200
-	bg-opacity-100 text-base-300;
-	}
+  }
+  [data-theme="kududesign"] .btn.btn-primary {
+    @apply active:opacity-90;
+  }
+  [data-theme="kududesign"] .btn.btn-primary {
+    @apply active:opacity-90;
+  }
+  [data-theme="kududesign"] .btn.btn-link {
+    @apply underline-offset-4 hover:text-neutral-focus text-neutral;
+  }
+  [data-theme="kududesign"] .btn.btn-sm {
+    @apply h-9;
+  }
+  [data-theme="kududesign"] .btn.btn-square,
+  [data-theme="kududesign"] .btn.btn-square.btn-md {
+    @apply rounded-[0.25rem] h-12 w-12;
+  }
+  [data-theme="kududesign"] .btn.btn-square.btn-sm {
+    @apply rounded-[0.25rem] h-9 w-9;
+  }
+  [data-theme="kududesign"] .btn.btn-square.btn-xs {
+    @apply rounded-[0.25rem] h-6 w-6;
+  }
+  [data-theme="kududesign"] .btn[disabled],
+  [data-theme="kududesign"] .btn-disabled {
+    @apply border-base-300 border-opacity-100 bg-base-200 bg-opacity-100 text-base-300;
+  }
+  [data-theme="kududesign"] .btn.btn-ghost {
+    @apply bg-opacity-0 hover:bg-opacity-20 active:opacity-90;
+  }
 }
