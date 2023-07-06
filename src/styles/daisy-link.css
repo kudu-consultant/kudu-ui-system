@@ -1,5 +1,5 @@
 @layer components {
   [data-theme="kududesign"] .link {
-		@apply underline-offset-4 hover:text-neutral-focus text-neutral;
+    @apply underline-offset-4 hover:text-neutral-focus text-neutral active:opacity-90 font-normal;
   }
 }

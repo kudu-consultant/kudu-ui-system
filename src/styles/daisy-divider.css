@@ -1,0 +1,5 @@
+@layer components {
+  [data-theme="kududesign"] .divider {
+    @apply m-0 h-0 before:bg-base-100 after:bg-base-100 after:h-[1px] before:h-[1px];
+  }
+}
