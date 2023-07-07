@@ -107,7 +107,7 @@ If you respect all these rules you will help us saving time and we will be able 
 ## License
 
 By contributing to kudu-ui-system, you agree that your contributions will be licensed
-under the [LICENSE](https://github.com/kudu-consultant/kudu-ui-system/blob/main/LICENSE) of the project.
+under the [LICENSE](LICENSE) of the project.
 
 ## Helper tools
 
