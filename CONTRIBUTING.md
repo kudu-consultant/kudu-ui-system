@@ -54,7 +54,7 @@ pnpm i kudu/ui-system
 
 ### Reporting an issue
 
-The first way to contribute to a project is simply proposing an issue. If you find anything which is not working well or as expected you can [open an issue](https://github.com/Decathlon/vitamin-web/issues/new/choose).
+The first way to contribute to a project is simply proposing an issue. If you find anything which is not working well or as expected you can [open an issue](https://github.com/kudu-consultant/kudu-ui-system/issues/new).
 
 Before to open the issue please check if there is one similar already opened. It will save us hours of work and it will allow us to answer you quickly with the desired hotfix or implementation.
 
