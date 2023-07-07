@@ -115,13 +115,6 @@ under the [LICENSE](LICENSE) of the project.
 
 This repo use renovate for up to date all packages
 
-- [How to set up Renovate][renovate-tutorial]
-- [Renovate dashboard][renovate-dashboard]
-- [Renovate docs][renovate-docs]
-
-[pnpm-package-manager-docs]: https://pnpm.io/
-[tailwind-docs]: https://tailwindcss.com/docs/utility-first
-[daisy-docs]: https://daisyui.com/docs/use/
-[renovate-tutorial]: https://github.com/renovatebot/tutorial
-[renovate-dashboard]: https://developer.mend.io/github/kudu-consultant/landing
-[renovate-docs]: https://docs.renovatebot.com/
+- [How to set up Renovate](https://github.com/renovatebot/tutorial)
+- [Renovate dashboard](https://developer.mend.io/github/kudu-consultant/landing)
+- [Renovate docs](https://docs.renovatebot.com/)
