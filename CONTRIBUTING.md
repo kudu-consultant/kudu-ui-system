@@ -54,7 +54,7 @@ pnpm i kudu/ui-system
 
 ### Reporting an issue
 
-The first way to contribute to a project is simply proposing an issue. If you find anything which is not working well or as expected you can [open an issue](https://github.com/Decathlon/vitamin-web/issues/new/choose).
+The first way to contribute to a project is simply proposing an issue. If you find anything which is not working well or as expected you can [open an issue](https://github.com/kudu-consultant/kudu-ui-system/issues/new).
 
 Before to open the issue please check if there is one similar already opened. It will save us hours of work and it will allow us to answer you quickly with the desired hotfix or implementation.
 
@@ -107,7 +107,7 @@ If you respect all these rules you will help us saving time and we will be able 
 ## License
 
 By contributing to kudu-ui-system, you agree that your contributions will be licensed
-under the [LICENSE](https://github.com/kudu-consultant/kudu-ui-system/blob/main/LICENSE) of the project.
+under the [LICENSE](LICENSE) of the project.
 
 ## Helper tools
 
@@ -115,13 +115,6 @@ under the [LICENSE](https://github.com/kudu-consultant/kudu-ui-system/blob/main/
 
 This repo use renovate for up to date all packages
 
-- [How to set up Renovate][renovate-tutorial]
-- [Renovate dashboard][renovate-dashboard]
-- [Renovate docs][renovate-docs]
-
-[pnpm-package-manager-docs]: https://pnpm.io/
-[tailwind-docs]: https://tailwindcss.com/docs/utility-first
-[daisy-docs]: https://daisyui.com/docs/use/
-[renovate-tutorial]: https://github.com/renovatebot/tutorial
-[renovate-dashboard]: https://developer.mend.io/github/kudu-consultant/landing
-[renovate-docs]: https://docs.renovatebot.com/
+- [How to set up Renovate](https://github.com/renovatebot/tutorial)
+- [Renovate dashboard](https://developer.mend.io/github/kudu-consultant/landing)
+- [Renovate docs](https://docs.renovatebot.com/)
