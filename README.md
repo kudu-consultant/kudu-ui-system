@@ -2,7 +2,7 @@
 
 Kudu UI Design System is a CSS library used across all products developed by Kudu.
 
-<a href="https://www.npmjs.com/package/kudu/ui-system"><img src="https://img.shields.io/npm/v/kudu-ui-system?style=flat&logo=npm" alt="npm version" /></a>
+<a href="https://www.npmjs.com/package/kudu-ui-system"><img src="https://img.shields.io/npm/v/kudu-ui-system?style=flat&logo=npm" alt="npm version" /></a>
 
 ## Install package
 
