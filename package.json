@@ -1,6 +1,6 @@
 {
   "name": "kudu-ui-system",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Just a demo",
   "author": {
     "name": "Kudu Consultant LLC",
@@ -31,8 +31,8 @@
     "access": "public"
   },
   "exports": {
-    "./tailwindcss": "./src/tailwindcss/",
-    "./postcss": "./src/postcss/",
+    "./tailwindcss": "./src/tailwindcss/index.js",
+    "./postcss": "./src/postcss/index.js",
     "./styles": "./src/styles/index.css"
   },
   "dependencies": {
