@@ -30,7 +30,7 @@ This project and everyone participating in it is governed by the [following code
 TODO
 
 ```sh
-pnpm i kudu/ui-system
+pnpm i kudu-ui-system
 ```
 
 ## Files and folders
