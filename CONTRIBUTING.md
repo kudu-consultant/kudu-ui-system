@@ -47,8 +47,8 @@ pnpm i kudu/ui-system
 | `CONTRIBUTING.md` | Guidelines for contributing to the project             |
 | `src`             | Folder containing all source files                     |
 | `src/tailwind`    | Folder for tailwind-related files                      |
+| `src/postcss`     | Folder for postcss-related files.                      |
 | `src/styles`      | Folder containing all CSS styles                       |
-| `src/icons`       | Folder for icon files                                  |
 
 ## How can I contribute?
 
