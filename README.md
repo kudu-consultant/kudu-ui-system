@@ -36,7 +36,7 @@ export default {
 2. Import and include the postcss configuration from `kudu-ui-system` in your `postcss.config.js`.
 
 ```js
-const { kuduuisystem } = require("kudu-ui-system/postcss");
+import { kuduuisystem } from 'kudu-ui-system/postcss'
 
 export default {
   plugins: {
