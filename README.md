@@ -24,7 +24,7 @@ pnpm i kudu-ui-system
 1. Import and include the preset configuration from `kudu-ui-system` in your `tailwind.config.js`.
 
 ```js
-const { tailwindPreset } = require("kudu-ui-system");
+const { tailwindPreset } = require("kudu-ui-system/tailwindcss");
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -33,10 +33,32 @@ export default {
 };
 ```
 
-2. In your main CSS file, import `kudu-ui-system` at the beginning of the file
+2. Import and include the postcss configuration from `kudu-ui-system` in your `postcss.config.js`.
+
+```js
+const { kuduuisystem } = require("kudu-ui-system/postcss");
+
+export default {
+  plugins: {
+    ...kuduuisystem,
+    ...
+  }
+};
+```
+
+3. In your main CSS file, import `kudu-ui-system` at the beginning of the file
 
 ```css
-@import "kudu-ui-system/src/styles/index.css";
+@import "kudu-ui-system/styles";
+```
+
+4. Set the custom atrribute `data-theme="kududesign"` in your HTML file:
+
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="kududesign">
+  ...
+</html>
 ```
 
 ## Development
