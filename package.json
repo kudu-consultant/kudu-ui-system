@@ -1,6 +1,6 @@
 {
   "name": "kudu-ui-system",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Just a demo",
   "main": "src/index.js",
   "files": [
