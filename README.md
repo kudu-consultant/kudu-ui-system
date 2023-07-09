@@ -80,10 +80,6 @@ If you want to know the different changes between versions of this package,
 
 Please file the issue [here](https://github.com/kudu-consultant/kudu-ui-system/issues/new).
 
-## Security Policy
-
-See [the security Policy](SECURITY.md).
-
 ## Contributing
 
 See [the contributing docs](CONTRIBUTING.md).
