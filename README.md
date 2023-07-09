@@ -36,7 +36,7 @@ export default {
 2. Import and include the postcss configuration from `kudu-ui-system` in your `postcss.config.js`.
 
 ```js
-import { kuduuisystem } from 'kudu-ui-system/postcss'
+const { kuduuisystem } = require("kudu-ui-system/postcss");
 
 export default {
   plugins: {
@@ -74,7 +74,7 @@ more details, you can refer to the documentation of [Tailwind CSS](https://tailw
 ## Changelog
 
 If you want to know the different changes between versions of this package,
-[look at the changelog here](https://github.com/kudu-consultant/kudu-ui-system/CHANGELOG.md).
+[look at the changelog here](CHANGELOG.md).
 
 ## I have an issue, what should I do?
 
@@ -82,13 +82,13 @@ Please file the issue [here](https://github.com/kudu-consultant/kudu-ui-system/i
 
 ## Security Policy
 
-See [the security Policy](https://github.com/kudu-consultant/kudu-ui-system/SECURITY.md).
+See [the security Policy](SECURITY.md).
 
 ## Contributing
 
-See [the contributing docs](https://github.com/kudu-consultant/kudu-ui-system/CONTRIBUTING.md).
+See [the contributing docs](CONTRIBUTING.md).
 
 ## License
 
 By contributing to kudu-ui-system, you agree that your contributions will be licensed
-under the [LICENSE](https://github.com/kudu-consultant/kudu-ui-system/blob/main/LICENSE) of the project.
+under the [LICENSE](LICENSE) of the project.
