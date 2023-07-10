@@ -1,0 +1,8 @@
+{
+  "name": "@kudu-ui-system/tailwindcss",
+  "version": "0.1.13",
+  "private": true,
+  "description": "Just a demo",
+  "license": "GNU GPL",
+  "scripts": {}
+}
