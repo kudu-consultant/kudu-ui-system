@@ -5,3 +5,9 @@
 @import "./daisy-button.css";
 @import "./daisy-link.css";
 @import "./daisy-divider.css";
+
+@layer base {
+	[data-theme='kududesign'] {
+		@apply bg-base-300 text-base-content font-HindSiliguri;
+	}
+}
