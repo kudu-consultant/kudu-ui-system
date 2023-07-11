@@ -1,0 +1,19 @@
+@layer components {
+  [data-theme="kududesign"] .modal {
+    @apply z-20;
+  }
+  [data-theme="kududesign"] .modal .modal-box {
+    @apply w-[calc(100%-16px-16px)] p-5 rounded-lg overflow-y-auto;
+  }
+  [data-theme="kududesign"] .modal-box.modal-shadow {
+    -webkit-box-shadow: 0px 99px 40px rgba(0, 0, 0, 0.01),
+      0px 56px 33px rgba(0, 0, 0, 0.05), 0px 25px 25px rgba(0, 0, 0, 0.08),
+      0px 6px 14px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 99px 40px rgba(0, 0, 0, 0.01),
+      0px 56px 33px rgba(0, 0, 0, 0.05), 0px 25px 25px rgba(0, 0, 0, 0.08),
+      0px 6px 14px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 99px 40px rgba(0, 0, 0, 0.01),
+      0px 56px 33px rgba(0, 0, 0, 0.05), 0px 25px 25px rgba(0, 0, 0, 0.08),
+      0px 6px 14px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+}
