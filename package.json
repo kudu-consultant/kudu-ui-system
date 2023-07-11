@@ -22,7 +22,8 @@
   "scripts": {
     "build": "npx tailwindcss build -i ./test-suite/input.css -o ./test-suite/dist/output.css",
     "start": "concurrently \"npx tailwindcss build -i ./test-suite/input.css -o ./test-suite/dist/output.css --watch\" \"live-server test-suite\"",
-    "test": "node test-suite/test/kudu.spec.js"
+    "test": "node test-suite/test/kudu.spec.js",
+    "test:demo": "npx tailwindcss build -i ./test-suite/input.css -o ./test-suite/dist/output.css && node test-suite/test/demo.spec.js"
   },
   "homepage": "https://github.com/kudu-consultant/kudu-ui-system",
   "bugs": "https://github.com/kudu-consultant/kudu-ui-system/issues",
