@@ -3,7 +3,7 @@
     @apply z-20;
   }
   [data-theme="kududesign"] .modal .modal-box {
-    @apply w-[calc(100%-16px-16px)] p-5 rounded-lg overflow-y-auto;
+    @apply w-[calc(100%-16px-16px)] rounded-lg overflow-y-auto;
   }
   [data-theme="kududesign"] .modal-box.modal-shadow {
     -webkit-box-shadow: 0px 99px 40px rgba(0, 0, 0, 0.01),
