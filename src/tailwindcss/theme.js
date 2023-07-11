@@ -5,6 +5,8 @@ module.exports = {
   screens: {
     xs: { min: "475px" },
     ...defaultTheme.screens,
+    "max-xl": { max: "1280px"},
+    "max-lg": { max: "1024px"},
     "max-md": { max: "768px" },
     "max-xs": { max: "475px" },
   },
