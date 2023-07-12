@@ -9,8 +9,8 @@ Kudu UI Design System
 - [Contributing](#contributing)
   - [Table of Contents](#table-of-contents)
   - [Code of conduct](#code-of-conduct)
-  - [Local development](#local-development)
   - [Files and folders](#files-and-folders)
+  - [Local development](#local-development)
   - [How can I contribute?](#how-can-i-contribute)
     - [Reporting an issue](#reporting-an-issue)
     - [Code contribution](#code-contribution)
@@ -24,14 +24,6 @@ Kudu UI Design System
 ## Code of conduct
 
 This project and everyone participating in it is governed by the [following code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
-
-## Local development
-
-TODO
-
-```sh
-pnpm i kudu-ui-system
-```
 
 ## Files and folders
 
@@ -49,6 +41,10 @@ pnpm i kudu-ui-system
 | `src/tailwind`    | Folder for tailwind-related files                      |
 | `src/postcss`     | Folder for postcss-related files.                      |
 | `src/styles`      | Folder containing all CSS styles                       |
+
+## Local development
+
+TODO
 
 ## How can I contribute?
 
