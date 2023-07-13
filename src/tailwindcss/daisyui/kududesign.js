@@ -27,5 +27,6 @@ module.exports = {
     "--animation-btn": "",
     "--btn-text-case": "",
     "--animation-input": "0.3s",
+    "--tglbg": "#F8F8F8",
   },
 };
