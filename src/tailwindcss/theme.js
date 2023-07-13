@@ -11,8 +11,8 @@ module.exports = {
     "max-lg": { max: "1023px" },
     "max-md": { max: "767px" },
     "max-xs": { max: "474px" },
-    "max-2xs": { max: "378px" },
-    "max-3xs": { max: "318px" },
+    "max-2xs": { max: "379px" },
+    "max-3xs": { max: "319px" },
   },
   fontFamily: {
     HindSiliguri: ["Hind Siliguri", ...fontFamily.sans],
