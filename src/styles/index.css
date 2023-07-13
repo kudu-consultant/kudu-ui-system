@@ -6,9 +6,10 @@
 @import "./daisy-link.css";
 @import "./daisy-divider.css";
 @import "./daisy-modal.css";
+@import "./daisy-toggle.css";
 
 @layer base {
-	[data-theme='kududesign'] {
-		@apply bg-base-300 text-base-content font-HindSiliguri;
-	}
+  [data-theme="kududesign"] {
+    @apply bg-base-300 text-base-content font-HindSiliguri;
+  }
 }
