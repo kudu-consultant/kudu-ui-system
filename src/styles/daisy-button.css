@@ -7,7 +7,8 @@
       .btn-accent,
       .btn-info,
       .btn-success,
-      .btn.btn-neutral .btn-warning,
+      .btn.btn-neutral,
+      .btn-warning,
       .btn-error,
       .btn-ghost
     ),
