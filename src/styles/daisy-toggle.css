@@ -1,0 +1,12 @@
+@layer components {
+  [data-theme="kududesign"] .toggle,
+  [data-theme="kududesign"] .toggle.toggle-neutral {
+    @apply border-base-200 outline-base-200 bg-neutral-content;
+  }
+  [data-theme="kududesign"] .toggle.toggle-success {
+    @apply border-base-200 checked:border-success outline-success bg-neutral-content checked:bg-success;
+  }
+  [data-theme="kududesign"] .toggle:disabled {
+    @apply opacity-40;
+  }
+}
