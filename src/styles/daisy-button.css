@@ -1,4 +1,5 @@
 @layer components {
+  [data-theme="kududesign"] .btn,
   [data-theme="kududesign"]
     .btn:not(
       .btn-link,
